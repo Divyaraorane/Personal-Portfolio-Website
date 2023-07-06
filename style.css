@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.max-width{
+    background-color:  rgb(219, 213, 213);
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin: 0px  20px;
+
+}
+section{
+    display: flex;
+    background-color: rgb(224, 221, 221);
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.left-side{
+    width: 50%;
+    padding-left: 60px;
+    font-size: xx-large;
+  
+}
+
+.right-side{
+    display: flex;
+    float:right;
+    width: 50%;
+
+}
+
+image{
+    
+}
