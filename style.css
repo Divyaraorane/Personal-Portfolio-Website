@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    height: 750px;
+   background-color: rgb(224, 221, 221);
+}
+
 
 .max-width{
     background-color:  rgb(219, 213, 213);
@@ -13,11 +18,11 @@
 }
 
 
-ul{
+.max-width ul{
     display: flex;
 }
 
-li{
+.max-width ul li{
     list-style-type: none;
     margin: 0px  20px;
 
@@ -25,7 +30,7 @@ li{
 section{
     display: flex;
     background-color: rgb(224, 221, 221);
-    height: 500px;
+    height: 550px;
     align-items: center;
     justify-content: center;
     
@@ -46,6 +51,48 @@ section{
 
 }
 
-image{
+.but{
+    width: 150px;
+    height: 40px;
+    display: inline;
+    background-color:rgb(224, 221, 221) ;
+    border-radius: 12%;
+    text-decoration: black;
     
+}
+footer{
+    background-color: rgb(148, 137, 137);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.nme{
+  margin: auto;
+ 
+}
+
+footer .lis{
+    margin: auto;
+    
+
+}
+footer .lis li{
+   list-style-type: square;
+  
+    
+
+}
+
+footer .listu{
+    margin: auto;
+
+}
+footer .listu li {
+   
+    list-style-type: square;
+}
+
+.copy{
+    background-color: #686868;
+    text-align: center;
 }
